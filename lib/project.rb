@@ -9,6 +9,7 @@ class Project
   end
 
   def add_backer(name)
+    binding.pry
     new_backer = Backer.new(name)
     @backers << new_backer
     new_backer.back_project(title)
