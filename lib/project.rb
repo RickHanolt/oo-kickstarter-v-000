@@ -1,7 +1,7 @@
 require 'pry'
 
 class Project
-  attr_accessor :name
+  attr_reader :name
 
   def initalize(name)
     @name = name
