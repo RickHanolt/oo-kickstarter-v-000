@@ -5,6 +5,7 @@ class Project
 
   def initalize(name)
     @name = name
+    @backers = []
   end
 
 end
