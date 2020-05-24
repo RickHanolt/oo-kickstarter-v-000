@@ -1,10 +1,10 @@
 require 'pry'
 
 class Project
-  attr_reader :name
+  attr_reader :title
 
-  def initalize(name)
-    @name = name
+  def initalize(title)
+    @title = title
     @backers = []
   end
 
